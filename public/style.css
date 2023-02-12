@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+.main-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.content h2 {
+  font-size: 1.7em;
+}
+.content button {
+  margin-left: auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #3b5998;
+  width: 100px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
+.content button:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.m-header {
+  color: red;
+}
